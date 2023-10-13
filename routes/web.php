@@ -14,8 +14,9 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/sample', function () {
+    // return view('welcome');
+    return "sample";
 });
 // 商品マスタ ルーティング一覧(showは使わない)
 Route::resource('product', ProductsController::class, ['except' => ['show']]);

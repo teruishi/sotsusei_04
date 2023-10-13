@@ -1,4 +1,7 @@
 <!-- This is rendered from [index.blade.php] -->
+<head>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
 
 @extends('adminlte::page')
 

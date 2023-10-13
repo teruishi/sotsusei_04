@@ -1,3 +1,7 @@
+<head>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+
 @extends('adminlte::page')
 
 @section('title', '銀行経営指標登録')
