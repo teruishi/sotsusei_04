@@ -1,3 +1,5 @@
+<!-- This is rendered from [index.blade.php] -->
+
 @extends('adminlte::page')
 
 @section('title', '銀行経営指標')
