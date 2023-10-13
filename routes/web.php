@@ -15,7 +15,7 @@ use App\Http\Controllers\ProductsController;
 */
 
 Route::get('/', function () {
-    return view('welcom');
+    return view('welcome');
     // return 'welcom';
 });
 // 商品マスタ ルーティング一覧(showは使わない)
